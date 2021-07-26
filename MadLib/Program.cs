@@ -40,7 +40,7 @@ namespace MadLib
                 verbs[2] = Console.ReadLine();
                 verbs[3] = Console.ReadLine();
 
-                Console.WriteLine("Name a State.");
+                Console.WriteLine("Name a State. EX: Missouri, Florida etc.");
                 string state = Console.ReadLine();
 
                 Console.WriteLine("Give a proper name - Bob, Rhonda, Joe etc.");
@@ -57,7 +57,7 @@ namespace MadLib
 
                 string[] miscellaneous = new string[4];
 
-                Console.WriteLine("List a relative (aunt, uncle, mom etc), an activity a restauant and your favorite month. Be sure to hit enter with each answer!");
+                Console.WriteLine("List a relative (aunt, uncle, mom etc), an activity, a restauant and your favorite month. Be sure to hit enter with each answer!");
                 miscellaneous[0] = Console.ReadLine();
                 miscellaneous[1] = Console.ReadLine();
                 miscellaneous[2] = Console.ReadLine();
